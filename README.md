@@ -27,6 +27,15 @@ Go to the server folder and run the command `npm install` to make sure all the r
 
 Run the command `npm run dev' to start the backend server. You should see your server running sucessfully on the port 8000 along with the message database connected.
 
+#### Postman: API Endpoints to test from backend
+Make sure your backend is running and these are the end points below you would like to test,
+ - POST request to http://localhost:8000/api/todo with body parameters 
+ - GET request to http://localhost:8000/api/todo
+ - PUT request to http://localhost:8000/api/todo/id
+ - DELETE request to http://localhost:8000/api/todo/id
+
+Find all the tests through Postman I have shared [here](https://docs.google.com/document/d/1GWDDMu_a1qMJImp5na6gv7Eb_RV01-bUiyDkMsM9DwE/edit?usp=sharing)
+
 ### Frontend
 
 Go to the client folder and run the command `npm install` to make sure all the required packages are installed.
