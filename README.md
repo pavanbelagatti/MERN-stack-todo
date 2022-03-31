@@ -14,6 +14,9 @@ server folder holds all the backend code and client folder holds the frontend co
 
 Go to the server folder with the command `cd server` and create a .env file with the command `touch .env`
 This is where you specify your mongodb string to connect with your application. 
+
+Create an account in mongodb Atlas and create a cluster (by default Cluster0 will be created). Then, create a database user and connect the database to your application using the 'Connect your application' method. You should see a string and keep it safe and we will specify the same in our .env file. 
+
 Add that mongodb string you get after creating a database. The string looks similar to the example shown below,
 
 `MONGO_URI = mongodb+srv://<username>:<password>@cluster0.p7eeh.mongodb.net/<add your database name>?retryWrites=true&w=majority`
