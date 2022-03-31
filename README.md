@@ -2,9 +2,9 @@
 **This is a simple todo app that is built with MERN stack [MongoDB, Express, React and Node.js]**
 
 ## Prerequisites
-1. Node.js installed
-2. MongoDB free account
-3. Postman for testing the endpoints of the Backend API
+1. Node.js - download and install the latest Node.js available from this [link](https://nodejs.org/en/).
+2. MongoDB free account from this [link](https://www.mongodb.com/cloud)
+3. Postman for testing the endpoints of the Backend API, this is optional but really good to verify the api end points in our backend to see everything is working as expected. You can download postman from this [link](https://www.postman.com/downloads/)
 
 ## How to playaround?
 Make sure you clone the repository with the commnd `git clone https://github.com/pavanbelagatti/MERN-stack-todo.git` on your terminal/local
@@ -29,5 +29,3 @@ Run the command `npm run dev' to start the backend server. You should see your s
 Go to the client folder and run the command `npm install` to make sure all the required packages are installed.
 
 Run the command '`npm start` and you should see the frontend starting on the port 3000. 
-
-
